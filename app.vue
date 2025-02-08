@@ -115,16 +115,16 @@
       </div>
       <div class=" w-full flex justify-between h-20 px-3 z-10">
 
-        <div class="relative w-16 h-16" @click="fnPrevPage">
+        <button class="relative w-16 h-16" @click="fnPrevPage">
           <img src="/assets//icons/heart.png" alt="" class=" object-cover">
           <p class="absolute text-xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold">Prev</p>
-        </div>
+        </button>
         
 
-        <div class="relative w-16 h-16" @click="fnNextPage">
+        <button class="relative w-16 h-16" @click="fnNextPage">
           <img src="/assets//icons/heart.png" alt="" class=" object-cover">
           <p class="absolute text-xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold">Next</p>
-        </div>
+        </button>
       </div>
   </div>
 </template>
